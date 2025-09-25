@@ -1,0 +1,105 @@
+<template>
+  <BaseContainer class="z-2 relative mt-[220px]" :max-width="'1292px'">
+    <h2 class="title text-[88px] font-bold text-center mb-6">What We Do</h2>
+    <div class="flex justify-center">
+      <div class="speech rounded-full text-[34px]">
+        Remittances - Moving at Internet Speed
+      </div>
+    </div>
+    <div class="flex flex-wrap gap-6 mt-[50px]">
+      <!-- Блок 1 -->
+      <div
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+      >
+        <img
+          src="/assets/images/pic_1.svg"
+          alt=""
+          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+        />
+        <div class="ml-6">
+          <h3 class="text-white text-xl font-normal text-[36px]">
+            Finds partners
+          </h3>
+        </div>
+      </div>
+
+      <!-- Блок 2 -->
+      <div
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+      >
+        <img
+          src="/assets/images/pic_2.svg"
+          alt=""
+          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+        />
+        <div class="ml-6">
+          <h3 class="text-white text-xl font-normal text-[36px]">
+            Issues tokens
+          </h3>
+        </div>
+      </div>
+
+      <!-- Блок 3 -->
+      <div
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+      >
+        <img
+          src="/assets/images/pic_3.svg"
+          alt=""
+          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+        />
+        <div class="ml-6">
+          <h3 class="text-white text-xl font-normal text-[36px]">
+            Identifies key technologies to empower users
+          </h3>
+        </div>
+      </div>
+
+      <!-- Блок 4 -->
+      <div
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+      >
+        <img
+          src="/assets/images/pic_4.svg"
+          alt=""
+          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+        />
+        <div class="ml-6">
+          <h3 class="text-white text-xl font-normal text-[36px]">
+            Provides KYC and Customer Support
+          </h3>
+        </div>
+      </div>
+    </div>
+    <p class="mission text-center text-[40px] mt-[97px] max-w-[1160px] mx-auto">
+      We help people and businesses move money from the US to global corridors.
+      Fast, fair, and with verifiable on-chain receipts. Fund in USD
+      (bank/card), deliver to bank, mobile wallet, or partner pickup - no crypto
+      knowledge required.
+      <br />
+      <br />
+      OpenPay facilitates cross-border transactions at internet speed. All
+      international remittances are conducted by licensed partners.
+    </p>
+    <Rocket />
+  </BaseContainer>
+  <Photos />
+</template>
+
+<script setup>
+// Логики нет, чисто разметка
+</script>
+
+<style scoped>
+.title {
+  background: linear-gradient(270deg, #a87afe -5.72%, #cf99e6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.speech {
+  border: 1px solid #625d81;
+  background: linear-gradient(90deg, #16151d 0%, #2c2a3b 100%);
+  padding: 20px 30px;
+}
+</style>
