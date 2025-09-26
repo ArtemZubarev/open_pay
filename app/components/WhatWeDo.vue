@@ -1,7 +1,10 @@
 <template>
-  <BaseContainer class="z-2 relative mt-[220px]" :max-width="'1292px'">
+  <BaseContainer
+    class="z-2 relative mt-[80px] md:mt-[220px]"
+    :max-width="'1292px'"
+  >
     <h2
-      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold text-center mb-12 text-center mb-6"
+      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-12 text-center"
     >
       What We Do
     </h2>

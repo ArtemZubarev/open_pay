@@ -1,15 +1,34 @@
 <template>
-  <BaseContainer class="z-2 relative mt-[150px]" :max-width="'1292px'">
+  <BaseContainer
+    class="z-2 relative mt-[60px] md:mt-[150px]"
+    :max-width="'1292px'"
+  >
     <button class="btn-secondary rounded-full px-6 py-3 cursor-pointer">
       Human help, 24/7
     </button>
     <p
-      class="text xl:text-title-xl lg:xl:text-title-lg font-semibold leading-[120%] mt-10"
+      class="text text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-semibold leading-[120%] mt-10"
     >
-      Chat <img class="inline" src="/assets/images/chat.svg" alt="" /> email
-      <img class="inline" src="/assets/images/mail.svg" alt="" /> or phone
-      <img class="inline" src="/assets/images/phone.svg" alt="" /> - our team
-      replies in under 5 minutes. Our guides and FAQs are always up to date.
+      Chat
+      <img
+        class="inline max-w-[30px] md:max-w-[68px]"
+        src="/assets/images/chat.svg"
+        alt=""
+      />
+      email
+      <img
+        class="inline max-w-[30px] md:max-w-[68px]"
+        src="/assets/images/mail.svg"
+        alt=""
+      />
+      or phone
+      <img
+        class="inline max-w-[30px] md:max-w-[68px]"
+        src="/assets/images/phone.svg"
+        alt=""
+      />
+      - our team replies in under 5 minutes. Our guides and FAQs are always up
+      to date.
     </p>
   </BaseContainer>
 </template>

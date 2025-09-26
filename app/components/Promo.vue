@@ -1,6 +1,6 @@
 <template>
   <BaseContainer
-    class="relative mt-[340px] pb-[160px] mx-auto"
+    class="relative mt-10 xl:mt-[340px] pb-[160px] mx-auto"
     :max-width="'1292px'"
   >
     <!-- Центральные -->

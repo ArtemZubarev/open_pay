@@ -1,12 +1,12 @@
 <template>
-  <BaseContainer class="z-2 relative mt-30" :max-width="'1292px'">
+  <BaseContainer class="z-2 relative md:mt-30" :max-width="'1292px'">
     <h2
       class="text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold text-center mb-12"
     >
       How it works
     </h2>
 
-    <div class="flex flex-col items-center gap-[80px] mt-28 w-full">
+    <div class="flex flex-col items-center gap-[80px] mt-10 md:mt-28 w-full">
       <!-- Верхний ряд -->
       <div class="flex flex-col lg:flex-row justify-center gap-[-50px] w-full">
         <FadeUp direction="left">

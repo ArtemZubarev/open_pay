@@ -6,7 +6,9 @@
       Key Benefits
     </h2>
 
-    <div class="flex flex-col md:flex-row lg:flex-wrap gap-4 mt-[200px]">
+    <div
+      class="flex flex-col md:flex-row lg:flex-wrap gap-4 mt-[50px] md:mt-[200px]"
+    >
       <!-- Левая колонка -->
       <div class="flex flex-col gap-4 md:w-[calc(50%-8px)]">
         <FadeUp direction="left">

@@ -1,7 +1,10 @@
 <template>
-  <BaseContainer class="z-2 relative mt-[220px]" :max-width="'1292px'">
+  <BaseContainer
+    class="z-2 relative mt-[60px] md:mt-[200px]"
+    :max-width="'1292px'"
+  >
     <h2
-      class="title xl:text-title-xl lg:xl:text-title-lg font-bold text-center mb-6"
+      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-12 text-center"
     >
       Security & Compliance
     </h2>
@@ -12,22 +15,26 @@
         :key="i"
         :ref="(el) => (blocks[i] = el)"
         class="box flex justify-between items-center px-10 rounded-[50px] shadow-[8px_8px_50px_0_rgba(0,0,0,0.15)] origin-center"
-        :class="i === 1 ? 'py-6' : 'py-10'"
+        :class="i === 1 ? 'py-6' : 'py-6 md:py-10'"
         :style="getBlockStyle(i)"
       >
         <!-- Текст -->
-        <div class="flex gap-4 items-center leading-[48px] max-w-[85%]">
-          <span class="text-[#A36EF7] text-[40px] font-medium"
+        <div class="flex gap-4 items-center leading-[48px] md:max-w-[85%]">
+          <span
+            class="hidden md:block text-[#A36EF7] text-[18px] sm:text-[22px] md:text-[30px] lg:text-[40px] font-medium"
             >({{ i + 1 }})</span
           >
-          <span class="text-white text-[40px] font-bold">{{ item }}</span>
+          <span
+            class="text-white text-[18px] sm:text-[22px] md:text-[30px] lg:text-[40px] md:font-bold leading-[120%]"
+            >{{ item }}</span
+          >
         </div>
 
         <!-- Иконка -->
         <img
           src="/assets/images/switcher.svg"
           alt="switcher"
-          class="w-[48px] h-[48px]"
+          class="hidden md:block w-[48px] h-[48px]"
         />
       </div>
     </div>

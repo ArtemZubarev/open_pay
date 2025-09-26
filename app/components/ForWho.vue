@@ -1,5 +1,8 @@
 <template>
-  <BaseContainer class="z-2 relative mt-[200px]" :max-width="'1292px'">
+  <BaseContainer
+    class="z-2 relative mt-[60px] md:mt-[200px]"
+    :max-width="'1292px'"
+  >
     <div
       class="relative who bg-[#252431] p-[20px] md:p-[110px] rounded-[55px] overflow-hidden"
     >
