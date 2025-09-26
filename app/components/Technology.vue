@@ -2,7 +2,7 @@
   <BaseContainer class="z-2 relative mt-[250px]" :max-width="'1292px'">
     <img class="mx-auto" src="/assets/images/venomphpr.svg" alt="" />
     <h2
-      class="text-[88px] font-bold text-center mb-12 mt-[33px] leading-[120%]"
+      class="xl:text-title-xl lg:xl:text-title-lg font-bold text-center mb-12 mt-[33px] leading-[120%]"
     >
       Technology Backbone: <br />
       Venom & PHPR

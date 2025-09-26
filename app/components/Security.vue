@@ -1,6 +1,8 @@
 <template>
   <BaseContainer class="z-2 relative mt-[220px]" :max-width="'1292px'">
-    <h2 class="title text-[88px] font-bold text-center mb-6">
+    <h2
+      class="title xl:text-title-xl lg:xl:text-title-lg font-bold text-center mb-6"
+    >
       Security & Compliance
     </h2>
 

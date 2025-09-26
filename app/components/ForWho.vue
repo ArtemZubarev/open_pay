@@ -1,7 +1,9 @@
 <template>
   <BaseContainer class="z-2 relative mt-[20px]" :max-width="'1292px'">
     <div class="who bg-[#252431] p-[110px] rounded-[55px]">
-      <h2 class="relative z-10 title text-[88px] font-bold text-left mb-6">
+      <h2
+        class="relative z-10 title xl:text-title-xl lg:xl:text-title-lg font-bold text-left mb-6"
+      >
         Who it’s for
       </h2>
       <ul class="relative flex flex-col gap-8 z-10">

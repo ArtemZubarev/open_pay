@@ -32,7 +32,11 @@
           <div class="h-full w-full flex flex-col gap-2">
             <div class="flex flex-col justify-center w-full flex-1 px-20">
               <p class="text-[40px] font-normal">human support</p>
-              <h2 class="support text-[88px] font-bold mb-0">24/7</h2>
+              <h2
+                class="support xl:text-title-xl lg:xl:text-title-lg font-bold mb-0"
+              >
+                24/7
+              </h2>
             </div>
             <div
               class="flex relative flex-col justify-center w-full flex-1 px-20"

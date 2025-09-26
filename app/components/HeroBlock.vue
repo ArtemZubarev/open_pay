@@ -1,13 +1,19 @@
 <template>
-  <section class="text-white py-32 z-2 relative">
+  <section class="text-white py-16 md:py-32 z-2 relative">
     <BaseContainer>
       <!-- Заголовок -->
-      <h1 class="text-center font-semibold leading-[1.4] text-[88px]">
-        <div class="flex justify-center gap-26 z-1">
+      <h1
+        class="text-center font-semibold leading-[1.4] text-title md:text-title-md lg:text-title-lg xl:text-title-xl"
+      >
+        <div
+          class="flex flex-col md:flex-row items-center md:items-unset justify-center md:gap-16 lg:gap-20 xl:gap-26 z-1"
+        >
           <span>Send Money at</span>
-          <span class="onchain">On-chain</span>
+          <span class="onchain max-w-max md:max-w-unset">On-chain</span>
         </div>
-        <div class="flex justify-center gap-20">
+        <div
+          class="flex flex-col md:flex-row items-center md:items-unset justify-center md:gap-10 lg:gap-14 xl:gap-20"
+        >
           <div class="speed block">
             <span class="speed-text">Speed</span>
             <!-- <img class="speed-back" src="/assets/images/speed.svg" alt="" /> -->
@@ -18,7 +24,7 @@
 
       <!-- Подзаголовок -->
       <p
-        class="text-center mt-8 text-[34px] font-normal text-foreground max-w-4xl mx-auto"
+        class="text-center mt-8 text-[18px] md:text-[28px] lg:text-[34px] font-normal text-foreground max-w-md md:max-w-xl lg:max-w-4xl mx-auto"
       >
         Powering US-based remittances with on-chain speed and transparency -
         built on Venom.
@@ -76,13 +82,13 @@ h1 span {
 }
 .onchain::before {
   content: "";
-  width: 72px;
-  height: 72px;
   position: absolute;
-  left: -84px;
-  top: 23px;
   background-image: url("/assets/images/chain.svg");
   background-size: contain;
+  width: 32px;
+  height: 32px;
+  left: -23%;
+  top: 4px;
 }
 .speed {
   position: relative;
@@ -100,22 +106,80 @@ h1 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 2;
-  font-size: 74px;
-  padding-top: 12px;
+
   font-weight: 500;
 }
 .speed::before {
   position: absolute;
   z-index: 1;
   top: 0;
-  width: 382px;
-  height: 108px;
   content: "";
   top: 13%;
-  left: -34%;
-  /* transform: translate(-50%, -42%); */
+
   background-image: url("/assets/images/speed.svg");
   pointer-events: none;
-  background-size: contain;
+  background-size: 100% 100%;
+
+  width: 190px;
+  height: 45px;
+  top: 7%;
+  left: -44%;
+}
+@media (min-width: 768px) {
+  .onchain::before {
+    width: 42px;
+    height: 42px;
+    left: -52px;
+    top: 14px;
+  }
+  .speed-text {
+    font-size: 45px;
+    padding-top: 4px;
+  }
+  .speed:before {
+    width: 230px;
+    height: 60px;
+    top: 14%;
+    left: -35%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .onchain::before {
+    width: 52px;
+    height: 52px;
+    left: -64px;
+    top: 18px;
+  }
+
+  .speed-text {
+    font-size: 55px;
+    padding-top: 10px;
+  }
+  .speed:before {
+    width: 280px;
+    height: 80px;
+    top: 15%;
+  }
+}
+@media (min-width: 1280px) {
+  .onchain::before {
+    width: 72px;
+    height: 72px;
+    left: -84px;
+    top: 23px;
+  }
+
+  .speed-text {
+    font-size: 65px;
+    font-size: 74px;
+    padding-top: 12px;
+  }
+
+  .speed:before {
+    width: 382px;
+    height: 108px;
+    top: 14%;
+  }
 }
 </style>

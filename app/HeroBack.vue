@@ -1,12 +1,12 @@
 <template>
-  <div class="hero-back absolute w-full top-0 overflow-hidden">
+  <div class="hero-back absolute w-full h-full lg:h-auto top-0 overflow-hidden">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="1920"
       height="1551"
       viewBox="0 0 1920 1551"
       fill="none"
-      class="w-full"
+      class="w-full h-full lg:h-auto"
     >
       <path
         d="M562 1551L562 1055.43C562 1047.47 558.839 1039.84 553.213 1034.21L466.787 947.787C461.161 942.161 458 934.53 458 926.574L458 837"

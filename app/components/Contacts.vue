@@ -3,7 +3,9 @@
     <button class="btn-secondary rounded-full px-6 py-3 cursor-pointer">
       Human help, 24/7
     </button>
-    <p class="text text-[88px] font-semibold leading-[120%] mt-10">
+    <p
+      class="text xl:text-title-xl lg:xl:text-title-lg font-semibold leading-[120%] mt-10"
+    >
       Chat <img class="inline" src="/assets/images/chat.svg" alt="" /> email
       <img class="inline" src="/assets/images/mail.svg" alt="" /> or phone
       <img class="inline" src="/assets/images/phone.svg" alt="" /> - our team

@@ -6,6 +6,12 @@
 @theme {
   --color-background: #16151d;
   --color-foreground: #ffffff;
+
+  --text-title: 32px; /* базовый для мобилки */
+  --text-title-sm: 38px;
+  --text-title-md: 48px; /* от sm */
+  --text-title-lg: 64px;
+  --text-title-xl: 88px;
 }
 /* глобальные стили */
 html,

@@ -1,6 +1,8 @@
 <template>
   <BaseContainer class="z-2 relative h-[1250px] mt-30" :max-width="'1292px'">
-    <h2 class="text-[88px] font-bold text-left mb-12">How it works</h2>
+    <h2 class="xl:text-title-xl lg:xl:text-title-lg font-bold text-left mb-12">
+      How it works
+    </h2>
 
     <div class="flex flex-col items-center gap-[80px] mt-28 w-full">
       <!-- Верхний ряд -->
