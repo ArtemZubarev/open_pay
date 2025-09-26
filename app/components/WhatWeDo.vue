@@ -1,27 +1,29 @@
 <template>
   <BaseContainer class="z-2 relative mt-[220px]" :max-width="'1292px'">
     <h2
-      class="title xl:text-title-xl lg:xl:text-title-lg font-bold text-center mb-6"
+      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold text-center mb-12 text-center mb-6"
     >
       What We Do
     </h2>
     <div class="flex justify-center">
-      <div class="speech rounded-full text-[34px]">
+      <div
+        class="speech rounded-full text-[20px] text-center px-[10px] py-[20px] md:px-[40px] md:text-[34px]"
+      >
         Remittances - Moving at Internet Speed
       </div>
     </div>
     <div class="flex flex-wrap gap-6 mt-[50px]">
       <!-- Блок 1 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_1.svg"
           alt=""
-          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white text-xl font-normal text-[36px]">
+          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
             Finds partners
           </h3>
         </div>
@@ -29,15 +31,15 @@
 
       <!-- Блок 2 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_2.svg"
           alt=""
-          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white text-xl font-normal text-[36px]">
+          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
             Issues tokens
           </h3>
         </div>
@@ -45,15 +47,15 @@
 
       <!-- Блок 3 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_3.svg"
           alt=""
-          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white text-xl font-normal text-[36px]">
+          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
             Identifies key technologies to empower users
           </h3>
         </div>
@@ -61,21 +63,23 @@
 
       <!-- Блок 4 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center"
+        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_4.svg"
           alt=""
-          class="h-[189px] w-[116px] object-cover flex-shrink-0"
+          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0 object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white text-xl font-normal text-[36px]">
+          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
             Provides KYC and Customer Support
           </h3>
         </div>
       </div>
     </div>
-    <p class="mission text-center text-[40px] mt-[97px] max-w-[1160px] mx-auto">
+    <p
+      class="mission text-center text-[20px] md:text-[40px] mt-[97px] max-w-[1160px] mx-auto"
+    >
       We help people and businesses move money from the US to global corridors.
       Fast, fair, and with verifiable on-chain receipts. Fund in USD
       (bank/card), deliver to bank, mobile wallet, or partner pickup - no crypto
@@ -87,7 +91,7 @@
     </p>
     <Rocket />
   </BaseContainer>
-  <Photos />
+  <Photos class="hidden md:block" />
 </template>
 
 <script setup>
@@ -104,6 +108,5 @@
 .speech {
   border: 1px solid #625d81;
   background: linear-gradient(90deg, #16151d 0%, #2c2a3b 100%);
-  padding: 20px 30px;
 }
 </style>

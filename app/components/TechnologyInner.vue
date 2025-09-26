@@ -1,16 +1,22 @@
 <template>
   <BaseContainer class="z-2 relative mt-16" :max-width="'1292px'">
-    <div class="flex gap-6">
+    <div class="flex flex-col md:flex-row gap-6">
       <!-- Первый блок -->
 
       <FadeUp class="flex-1" direction="left">
         <div
-          class="box flex flex-col justify-between relative flex-1 bg-[#252431] rounded-[30px] py-12 px-16 overflow-hidden"
+          class="box flex flex-col justify-between relative flex-1 bg-[#252431] rounded-[30px] px-8 py-12 md:py-12 md:px-16 overflow-hidden h-full"
         >
           <!-- Контент -->
           <div class="relative z-10 flex flex-col h-full">
-            <h3 class="text-[40px] font-bold text-white mb-4">About PHPR</h3>
-            <p class="text-[30px] text-white mb-6 leading-[120%]">
+            <h3
+              class="text-[22px] md:text-[32px] lg:text-[40px] font-bold text-white mb-4"
+            >
+              About PHPR
+            </h3>
+            <p
+              class="text-[18px] md:text-[24px] lg:text-[30px] text-white mb-6 leading-[120%]"
+            >
               PHPR is our peso-denominated digital token that powers settlement
               behind the scenes. It ensures speed and stability across
               corridors.
@@ -18,7 +24,7 @@
           </div>
           <a
             href="#"
-            class="flex relative items-center text-[#A36EF7] text-[30px] font-medium hover:underline z-2"
+            class="flex relative items-center text-[#A36EF7] text-[18px] md:text-[24px] lg:text-[30px] font-medium hover:underline z-2"
           >
             Visit PHPR site for details
             <svg
@@ -49,14 +55,18 @@
       <!-- Второй блок -->
       <FadeUp class="flex-1" direction="right">
         <div
-          class="box relative flex flex-col justify-between flex-1 bg-[#252431] rounded-[30px] py-12 px-16 overflow-hidden"
+          class="box relative flex flex-col justify-between flex-1 bg-[#252431] rounded-[30px] px-8 py-12 md:py-12 md:px-16 overflow-hidden h-full"
         >
           <!-- Контент -->
           <div class="relative z-10 flex flex-col h-full">
-            <h3 class="text-[40px] font-bold text-white mb-4">
+            <h3
+              class="text-[22px] md:text-[32px] lg:text-[40px] font-bold text-white mb-4"
+            >
               Built on Venom
             </h3>
-            <p class="text-[30px] text-white mb-6 leading-[120%]">
+            <p
+              class="text-[18px] md:text-[24px] lg:text-[30px] text-white mb-6 leading-[120%]"
+            >
               Venom makes transfers faster, cheaper, and more transparent. Every
               transfer is recorded immutably, so you can always see where your
               money is.
@@ -64,7 +74,7 @@
           </div>
           <a
             href="#"
-            class="flex relative items-center text-[#A36EF7] text-[30px] font-medium hover:underline z-2"
+            class="flex relative items-center text-[#A36EF7] text-[18px] md:text-[24px] lg:text-[30px] font-medium hover:underline z-2"
           >
             Learn more on Venom
             <svg

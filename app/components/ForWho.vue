@@ -1,8 +1,10 @@
 <template>
-  <BaseContainer class="z-2 relative mt-[20px]" :max-width="'1292px'">
-    <div class="who bg-[#252431] p-[110px] rounded-[55px]">
+  <BaseContainer class="z-2 relative mt-[200px]" :max-width="'1292px'">
+    <div
+      class="relative who bg-[#252431] p-[20px] md:p-[110px] rounded-[55px] overflow-hidden"
+    >
       <h2
-        class="relative z-10 title xl:text-title-xl lg:xl:text-title-lg font-bold text-left mb-6"
+        class="text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-12t ext-left mb-6 relative z-10"
       >
         Who it’s for
       </h2>
@@ -11,7 +13,9 @@
           <span
             class="w-4.5 h-4.5 rounded-full bg-white flex-shrink-0 mt-4"
           ></span>
-          <span class="text-[40px] text-white font-normal leading-[120%]">
+          <span
+            class="text-[18px] md:text-[40px] text-white font-normal leading-[120%]"
+          >
             Individuals sending money home
           </span>
         </li>
@@ -19,8 +23,11 @@
           <span
             class="w-4.5 h-4.5 rounded-full bg-white flex-shrink-0 mt-4"
           ></span>
-          <span class="text-[40px] text-white font-normal leading-[120%]">
-            Freelancers/creators/consultants <br />
+          <span
+            class="text-[18px] md:text-[40px] text-white font-normal leading-[120%]"
+          >
+            Freelancers/ <br class="hidden md:inline" />creators/
+            <br class="hidden md:inline" />consultants <br />
             paid across borders
           </span>
         </li>
@@ -28,13 +35,15 @@
           <span
             class="w-4.5 h-4.5 rounded-full bg-white flex-shrink-0 mt-4"
           ></span>
-          <span class="text-[40px] text-white font-normal leading-[120%]">
+          <span
+            class="text-[18px] md:text-[40px] text-white font-normal leading-[120%]"
+          >
             Exchanges, wallets & fintechs <br />
             needing compliant payout rails
           </span>
         </li>
       </ul>
-      <div class="relative z-10 flex mt-12 gap-6 flex-wrap">
+      <div class="relative z-10 flex mt-12 gap-2 md:gap-6 flex-wrap">
         <!-- Градиентная кнопка -->
         <button
           class="btn-primary text-[#141414] rounded-full px-6 py-3 cursor-pointer"
@@ -49,27 +58,27 @@
       </div>
       <!-- Фоновая картинка справа -->
       <div
-        class="bckg absolute top-0 right-0 h-full w-full bg-no-repeat bg-right bg-contain"
+        class="bckg absolute top-0 right-0 h-full w-full max-w-[1520px] bg-no-repeat bg-right bg-contain"
       ></div>
     </div>
   </BaseContainer>
 </template>
 
 <style scoped>
-/* .who {
+.who {
   position: relative;
   border-radius: 55px;
-  padding: 110px;
 
   border: 2px solid transparent;
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   background-image: linear-gradient(#252431, #252431),
-      linear-gradient(to bottom, #cf6ffc, #7f6ef3, #686fe9, #fd84a0); 
-} */
+    linear-gradient(to bottom, #cf6ffc, #7f6ef3, #686fe9, #fd84a0);
+}
 
 .bckg {
   background-image: url("/assets/images/money.png");
+  background-position: bottom right;
 }
 /* Первая пилюльная кнопка */
 .btn-primary {
