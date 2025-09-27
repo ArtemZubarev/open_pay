@@ -26,7 +26,7 @@
           class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
+          <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
             Finds partners
           </h3>
         </div>
@@ -42,7 +42,7 @@
           class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
+          <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
             Issues tokens
           </h3>
         </div>
@@ -58,7 +58,7 @@
           class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
+          <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
             Identifies key technologies to empower users
           </h3>
         </div>
@@ -74,7 +74,7 @@
           class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0 object-cover flex-shrink-0"
         />
         <div class="ml-6">
-          <h3 class="text-white font-normal text-[18px] md:text-[36px]">
+          <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
             Provides KYC and Customer Support
           </h3>
         </div>

@@ -4,23 +4,35 @@
     :max-width="'1292px'"
   >
     <!-- Центральные -->
-    <div class="central w-full flex justify-center gap-[16px]">
+    <div
+      class="central w-full flex flex-col md:flex-row justify-center gap-[16px]"
+    >
       <PromoBlock :devided="true" class="shrink-1">
         <template #top>
-          <div class="h-full w-full flex flex-col justify-center gap-6 px-20">
-            <img class="w-[125px]" src="/assets/images/flag.svg" alt="" />
-            <p class="text-[40px] font-normal leading-[120%]">
+          <div
+            class="h-full w-full flex flex-col justify-center gap-6 px-10 md:px-20"
+          >
+            <img
+              class="w-[75px] sm:w-[100px] md:w-[125px]"
+              src="/assets/images/flag.svg"
+              alt=""
+            />
+            <p
+              class="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[120%]"
+            >
               Licensed US money transfer partners
             </p>
           </div>
         </template>
         <template #bottom>
-          <div class="h-full w-full flex flex-col gap-6 px-20 py-20">
-            <p class="relative z-20 text-[40px] font-normal leading-[120%]">
+          <div class="h-full w-full flex flex-col gap-6 px-10 md:px-20 py-20">
+            <p
+              class="relative z-20 text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[120%] relative z-20"
+            >
               Audited reserves backing PHPR
             </p>
             <img
-              class="absolute bottom-0 w-[80%] left-[50%] -translate-x-[50%]"
+              class="absolute bottom-0 w-[200px] md:w-[80%] left-[50%] -translate-x-[50%]"
               src="/assets/images/logos.svg"
               alt=""
             />
@@ -30,22 +42,30 @@
       <PromoBlock class="shrink-1">
         <template #default>
           <div class="h-full w-full flex flex-col gap-2">
-            <div class="flex flex-col justify-center w-full flex-1 px-20">
-              <p class="text-[40px] font-normal">human support</p>
+            <div
+              class="flex flex-col justify-center w-full flex-1 px-10 md:px-20"
+            >
+              <p
+                class="text-[20px] sm:text-[30px] lg:text-[40px] font-normal relative z-20"
+              >
+                human support
+              </p>
               <h2
-                class="support xl:text-title-xl lg:xl:text-title-lg font-bold mb-0"
+                class="support text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-0 relative z-20"
               >
                 24/7
               </h2>
             </div>
             <div
-              class="flex relative flex-col justify-center w-full flex-1 px-20"
+              class="flex relative flex-col justify-center w-full flex-1 px-10 md:px-20"
             >
-              <p class="relative z-10 text-[40px] font-normal">
+              <p
+                class="relative z-10 text-[20px] sm:text-[30px] lg:text-[40px] font-normal"
+              >
                 Bank-grade encryption & security
               </p>
               <img
-                class="absolute bottom-0 w-[225px] left-[50%] -translate-x-[50%]"
+                class="absolute bottom-0 w-[125px] md:w-[225px] left-[50%] -translate-x-[50%]"
                 src="/assets/images/lock.svg"
                 alt=""
               />
