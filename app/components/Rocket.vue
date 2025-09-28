@@ -1,11 +1,14 @@
 <template>
-  <div ref="container" class="w-full flex justify-center relative mt-[45px]">
+  <div
+    ref="container"
+    class="w-full flex justify-center relative mt-[-10px] md:mt-[45px]"
+  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="562"
       height="247"
       viewBox="0 0 562 247"
-      fill="none"
+      fill="none "
     >
       <!-- Путь ракеты -->
       <path

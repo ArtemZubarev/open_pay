@@ -22,7 +22,6 @@ import photo6 from "@/assets/images/photo_6.png";
 
 const images = [photo1, photo2, photo3, photo4, photo5, photo6];
 
-// индивидуальные размеры
 const sizeClasses = [
   "w-[121px] h-[121px]",
   "w-[157px] h-[157px]",
@@ -32,25 +31,39 @@ const sizeClasses = [
   "w-[134px] h-[134px]",
 ];
 
-// распределяем фото по вертикали от bottom в процентах
-const positions = images.map((_, i) => {
-  const bottomPercent = 10 + (i / (images.length - 1)) * 40; // базовый %
-  const heightPercent =
-    (parseInt(sizeClasses[i].match(/h-\[(\d+)px\]/)[1]) / 600) * 100;
-  // 600 — пример высоты контейнера, можно сделать динамической
-  return {
-    bottom: bottomPercent + heightPercent / 2, // сдвигаем вверх на половину высоты фото
-    xOffset: (Math.random() - 0.5) * 20,
-  };
-});
+const heights = sizeClasses.map((c) => parseInt(c.match(/h-\[(\d+)px\]/)[1]));
 
-const getStyle = (i) => {
-  const pos = positions[i];
-  return {
-    bottom: pos.bottom + "%",
-    transform: `translateX(${pos.xOffset}px)`,
-  };
+const containerHeight = 600; // px, пример
+
+// разделяем на левую и правую группу
+const leftImages = heights.slice(0, 3);
+const rightImages = heights.slice(3);
+
+// функция для распределения фото в слоты с случайным смещением внутри слота
+const generatePositions = (groupHeights) => {
+  const slotCount = groupHeights.length;
+  return groupHeights.map((height, i) => {
+    const slotHeight = containerHeight / slotCount;
+    const slotTop = i * slotHeight;
+    const slotBottom = slotTop + slotHeight - height;
+    const bottomPx = slotTop + Math.random() * (slotBottom - slotTop);
+    return {
+      bottom: (bottomPx / (containerHeight * 2)) * 100,
+      xOffset: (Math.random() - 0.5) * 20,
+    };
+  });
 };
+
+const leftPositions = generatePositions(leftImages);
+const rightPositions = generatePositions(rightImages);
+
+// объединяем позиции обратно в один массив
+const positions = [...leftPositions, ...rightPositions];
+
+const getStyle = (i) => ({
+  bottom: positions[i].bottom + "%",
+  transform: `translateX(${positions[i].xOffset}px)`,
+});
 </script>
 
 <style scoped>

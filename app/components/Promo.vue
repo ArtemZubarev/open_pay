@@ -1,16 +1,16 @@
 <template>
   <BaseContainer
-    class="relative mt-10 xl:mt-[340px] pb-[160px] mx-auto"
+    class="relative mt-10 xl:mt-[140px] pb-[160px] mx-auto"
     :max-width="'1292px'"
   >
     <!-- Центральные -->
     <div
-      class="central w-full flex flex-col md:flex-row justify-center gap-[16px]"
+      class="central w-full flex flex-col md:flex-row justify-center gap-[8px] md:gap-[16px]"
     >
       <PromoBlock :devided="true" class="shrink-1">
         <template #top>
           <div
-            class="h-full w-full flex flex-col justify-center gap-6 px-10 md:px-20"
+            class="h-full w-full flex flex-col justify-center gap-[8px] md:gap-6 px-10 md:px-20"
           >
             <img
               class="w-[75px] sm:w-[100px] md:w-[125px]"
@@ -25,7 +25,9 @@
           </div>
         </template>
         <template #bottom>
-          <div class="h-full w-full flex flex-col gap-6 px-10 md:px-20 py-20">
+          <div
+            class="h-full w-full flex flex-col gap-[8px] md:gap-6 gap-6 px-10 md:px-20 py-10 md:y-20"
+          >
             <p
               class="relative z-20 text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[120%] relative z-20"
             >
@@ -51,7 +53,7 @@
                 human support
               </p>
               <h2
-                class="support text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-0 relative z-20"
+                class="support text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-0 relative z-20"
               >
                 24/7
               </h2>

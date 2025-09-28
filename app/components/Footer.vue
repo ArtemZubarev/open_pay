@@ -16,7 +16,7 @@
               class="w-[180px] h-auto"
             />
             <p
-              class="text-white/80 text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-semibold leading-[120%]"
+              class="text-white/80 text-title md:text-title-sm font-semibold leading-[120%]"
             >
               Start Sending in Minutes
             </p>
@@ -25,12 +25,12 @@
             </p>
             <div class="flex mt-2 gap-2 md:gap-6 flex-wrap">
               <button
-                class="btn-primary text-[#141414] rounded-full px-6 py-3 cursor-pointer"
+                class="btn-primary text-[#141414] rounded-full px-4 py-2 md:px-6 md:py-3 cursor-pointer"
               >
                 Get Started
               </button>
               <button
-                class="flex gap-2 btn-secondary rounded-full px-6 py-4 cursor-pointer"
+                class="flex gap-2 btn-secondary rounded-full px-4 py-2 md:px-6 md:py-3 cursor-pointer"
               >
                 <img
                   class="w-[39px] h-[21px]"
@@ -75,7 +75,7 @@
             </ul>
           </div>
           <p class="info text-[#4E4A66] mt-6 text-[12px] md:text-[16px]">
-            Vxchange ©2023 All Rights Reserved
+            OpenPay ©2023 All Rights Reserved
           </p>
         </div>
 

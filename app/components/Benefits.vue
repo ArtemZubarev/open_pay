@@ -1,5 +1,5 @@
 <template>
-  <BaseContainer class="z-2 relative" :max-width="'1292px'">
+  <BaseContainer class="z-2 relative scale-100" :max-width="'1292px'">
     <h2
       class="text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold text-center mb-12"
     >
@@ -44,7 +44,7 @@
             <img
               src="/assets/images/venom-logo.svg"
               alt=""
-              class="venom w-[200px] mx-auto mt-[20px] lg:mx-0 lg:w-[299px] lg:mt-[40px]"
+              class="venom w-[200px] mx-auto mt-[20px] lg:pl-[60px] lg:mx-0 lg:w-[299px] lg:mt-[40px]"
             />
           </div>
         </FadeUp>

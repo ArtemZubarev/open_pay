@@ -16,12 +16,8 @@
   <img
     src="/assets/images/glow.png"
     alt=""
-    class="glow absolute inset-0 object-cover opacity-30"
+    class="glow absolute w-[2200px] transform translate-x-[-50%] left-[50%] top-[50%] translate-y-[-38%] md:translate-y-[-22%] xl:translate-y-[-18%] opacity-90 max-w-[2200px]"
   />
 </template>
 
-<style scoped>
-.glow {
-  bottom: -600px !important;
-}
-</style>
+<style scoped></style>

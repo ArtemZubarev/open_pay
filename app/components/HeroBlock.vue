@@ -31,16 +31,18 @@
       </p>
 
       <!-- Кнопки -->
-      <div class="flex justify-center mt-12 gap-6 flex-wrap">
+      <div class="flex justify-center mt-12 gap-2 md:gap-6">
         <!-- Градиентная кнопка -->
         <button
-          class="btn-primary text-[#141414] rounded-full px-6 py-3 cursor-pointer"
+          class="btn-primary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 text-[#141414] rounded-full cursor-pointer"
         >
           Get Early Access
         </button>
 
         <!-- Вторая кнопка -->
-        <button class="btn-secondary rounded-full px-6 py-3 cursor-pointer">
+        <button
+          class="btn-secondary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 rounded-full cursor-pointer"
+        >
           Corporate Queries
         </button>
       </div>

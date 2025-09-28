@@ -4,49 +4,50 @@
     :max-width="'1292px'"
   >
     <div
-      class="relative who bg-[#252431] p-[20px] md:p-[110px] rounded-[55px] overflow-hidden"
+      class="relative who bg-[#252431] px-[28px] py-[36px] md:py-[110px] md:px-[110px] rounded-[36px] md:rounded-[55px] overflow-hidden"
     >
       <h2
-        class="text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-12t ext-left mb-6 relative z-10"
+        class="text-[39px] md:text-title-md lg:text-title-lg xl:text-[75px] font-bold mb-12t ext-left mb-6 relative z-10"
       >
         Who it’s for
       </h2>
-      <ul class="relative flex flex-col gap-8 z-10">
-        <li class="flex items-start gap-6">
+      <ul class="relative flex flex-col gap-4 md:gap-8 z-10">
+        <li class="flex items-start gap-3 md:gap-6">
           <span
-            class="w-4.5 h-4.5 rounded-full bg-white flex-shrink-0 mt-4"
+            class="w-3 h-3 md:w-4.5 md:h-4.5 rounded-full bg-white flex-shrink-0 mt-1.5 md:mt-4"
           ></span>
           <span
-            class="text-[18px] md:text-[40px] text-white font-normal leading-[120%]"
+            class="text-[18px] md:text-[34px] text-white font-normal leading-[120%]"
           >
             Individuals sending money home
           </span>
         </li>
-        <li class="flex items-start gap-6">
+        <li class="flex items-start gap-3 md:gap-6">
           <span
-            class="w-4.5 h-4.5 rounded-full bg-white flex-shrink-0 mt-4"
+            class="w-3 h-3 md:w-4.5 md:h-4.5 rounded-full bg-white flex-shrink-0 mt-1.5 md:mt-4"
           ></span>
           <span
-            class="text-[18px] md:text-[40px] text-white font-normal leading-[120%]"
+            class="text-[18px] md:text-[34px] text-white font-normal leading-[120%]"
           >
-            Freelancers/ <br class="hidden md:inline" />creators/
-            <br class="hidden md:inline" />consultants <br />
+            Freelancers/creators/consultants <br />
             paid across borders
           </span>
         </li>
-        <li class="flex items-start gap-6">
+        <li class="flex items-start gap-3 md:gap-6">
           <span
-            class="w-4.5 h-4.5 rounded-full bg-white flex-shrink-0 mt-4"
+            class="w-3 h-3 md:w-4.5 md:h-4.5 rounded-full bg-white flex-shrink-0 mt-1.5 md:mt-4"
           ></span>
           <span
-            class="text-[18px] md:text-[40px] text-white font-normal leading-[120%]"
+            class="text-[18px] md:text-[34px] text-white font-normal leading-[120%]"
           >
             Exchanges, wallets & fintechs <br />
             needing compliant payout rails
           </span>
         </li>
       </ul>
-      <div class="relative z-10 flex mt-12 gap-2 md:gap-6 flex-wrap">
+      <div
+        class="relative z-10 flex mt-12 gap-2 md:gap-6 flex-wrap mb-10 md: mb-0"
+      >
         <!-- Градиентная кнопка -->
         <button
           class="btn-primary text-[#141414] rounded-full px-6 py-3 cursor-pointer"

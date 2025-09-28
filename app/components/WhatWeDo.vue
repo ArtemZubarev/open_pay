@@ -10,7 +10,7 @@
     </h2>
     <div class="flex justify-center">
       <div
-        class="speech rounded-full text-[20px] text-center px-[10px] py-[20px] md:px-[40px] md:text-[34px]"
+        class="speech rounded-[28px] md:rounded-full text-[20px] text-center px-[10px] py-[20px] md:px-[40px] md:text-[34px]"
       >
         Remittances - Moving at Internet Speed
       </div>
@@ -18,7 +18,7 @@
     <div class="flex flex-wrap gap-6 mt-[50px]">
       <!-- Блок 1 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
+        class="rounded-[22px] md:rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_1.svg"
@@ -34,7 +34,7 @@
 
       <!-- Блок 2 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
+        class="rounded-[22px] md:rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_2.svg"
@@ -50,7 +50,7 @@
 
       <!-- Блок 3 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
+        class="rounded-[22px] md:rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_3.svg"
@@ -66,7 +66,7 @@
 
       <!-- Блок 4 -->
       <div
-        class="rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
+        class="rounded-[22px] md:rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
       >
         <img
           src="/assets/images/pic_4.svg"
@@ -81,7 +81,7 @@
       </div>
     </div>
     <p
-      class="mission text-center text-[20px] md:text-[40px] mt-[97px] max-w-[1160px] mx-auto"
+      class="mission text-center text-[18px] md:text-[32px] mt-[97px] max-w-[1160px] mx-auto"
     >
       We help people and businesses move money from the US to global corridors.
       Fast, fair, and with verifiable on-chain receipts. Fund in USD
