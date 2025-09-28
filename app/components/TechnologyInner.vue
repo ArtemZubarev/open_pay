@@ -1,5 +1,5 @@
 <template>
-  <BaseContainer class="z-2 relative mt-16" :max-width="'1292px'">
+  <BaseContainer class="z-2 relative mt-6 md:mt-16" :max-width="'1292px'">
     <div class="flex flex-col md:flex-row gap-6">
       <!-- Первый блок -->
 
@@ -44,11 +44,11 @@
           </a>
 
           <!-- Фоновая картинка справа снизу -->
-          <img
+          <!-- <img
             src="/assets/images/log_1.svg"
             alt=""
             class="absolute -bottom-14 right-6 w-[280px] h-[300px] object-contain"
-          />
+          /> -->
         </div>
       </FadeUp>
 
@@ -94,11 +94,11 @@
           </a>
 
           <!-- Фоновая картинка справа снизу -->
-          <img
+          <!-- <img
             src="/assets/images/log_1.svg"
             alt=""
             class="absolute bottom-0 right-0 w-[280px] h-[300px] object-contain"
-          />
+          /> -->
         </div>
       </FadeUp>
     </div>

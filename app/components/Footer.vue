@@ -7,7 +7,7 @@
       <div class="max-w-[1292px] mx-auto md:grid grid-cols-12 gap-12">
         <!-- Колонка 1 (6 колонок) -->
         <div
-          class="col-span-6 flex flex-col justify-between pr-8 md:border-r border-[#252431] h-full"
+          class="col-span-6 flex flex-col justify-between md:pr-8 md:border-r border-[#252431] h-full"
         >
           <div class="flex flex-col gap-4">
             <img
@@ -23,14 +23,14 @@
             <p class="text-white/70 text-[14px] md:text-[18px] leading-[150%]">
               Low fees, live FX, clear tracking from day one.
             </p>
-            <div class="flex mt-2 gap-2 md:gap-6 flex-wrap">
+            <div class="flex mt-2 gap-2 md:gap-6 md:flex-wrap">
               <button
-                class="btn-primary text-[#141414] rounded-full px-4 py-2 md:px-6 md:py-3 cursor-pointer"
+                class="btn-primary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 text-[#141414] rounded-full cursor-pointer"
               >
                 Get Started
               </button>
               <button
-                class="flex gap-2 btn-secondary rounded-full px-4 py-2 md:px-6 md:py-3 cursor-pointer"
+                class="flex gap-1 btn-secondary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 rounded-full cursor-pointer"
               >
                 <img
                   class="w-[39px] h-[21px]"

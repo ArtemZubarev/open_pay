@@ -29,7 +29,8 @@
           <span
             class="text-[18px] md:text-[34px] text-white font-normal leading-[120%]"
           >
-            Freelancers/creators/consultants <br />
+            Freelancers/creators/ <br class="md:hidden" />consultants
+            <br class="hidden md:block" />
             paid across borders
           </span>
         </li>

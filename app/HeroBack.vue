@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hero-back absolute w-[1600px] lg:w-[1400px] xl:w-[1920px] left-[50%] transform translate-x-[-50%] h-full lg:h-auto top-0 overflow-hidden"
+    class="hero-back absolute w-[1300px] lg:w-[1400px] xl:w-[1920px] left-[50%] transform translate-x-[-50%] h-full lg:h-auto top-[-10%] md:top-0 overflow-hidden"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"

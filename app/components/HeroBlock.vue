@@ -3,7 +3,7 @@
     <BaseContainer>
       <!-- Заголовок -->
       <h1
-        class="text-center font-semibold leading-[1.4] text-title md:text-title-md lg:text-title-lg xl:text-title-xl"
+        class="text-center font-semibold leading-[1.5] text-title md:text-title-md lg:text-title-lg xl:text-title-xl"
       >
         <div
           class="flex flex-col md:flex-row items-center md:items-unset justify-center md:gap-16 lg:gap-20 xl:gap-26 z-1"
@@ -24,14 +24,15 @@
 
       <!-- Подзаголовок -->
       <p
-        class="text-center mt-8 text-[18px] md:text-[28px] lg:text-[34px] font-normal text-foreground max-w-md md:max-w-xl lg:max-w-4xl mx-auto"
+        class="text-center mt-3 md:mt-8 text-[14px] md:text-[28px] lg:text-[34px] font-normal text-foreground max-w-md md:max-w-xl lg:max-w-4xl mx-auto"
       >
-        Powering US-based remittances with on-chain speed and transparency -
-        built on Venom.
+        Powering US-based remittances <br class="md:hidden" />
+        with on-chain speed and <br class="md:hidden" />
+        transparency - built on Venom.
       </p>
 
       <!-- Кнопки -->
-      <div class="flex justify-center mt-12 gap-2 md:gap-6">
+      <div class="flex justify-center mt-4 md:mt-12 gap-2 md:gap-6">
         <!-- Градиентная кнопка -->
         <button
           class="btn-primary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 text-[#141414] rounded-full cursor-pointer"

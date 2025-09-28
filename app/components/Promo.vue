@@ -13,14 +13,15 @@
             class="h-full w-full flex flex-col justify-center gap-[8px] md:gap-6 px-10 md:px-20"
           >
             <img
-              class="w-[75px] sm:w-[100px] md:w-[125px]"
+              class="w-[55px] md:w-[125px]"
               src="/assets/images/flag.svg"
               alt=""
             />
             <p
               class="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[120%]"
             >
-              Licensed US money transfer partners
+              Licensed US money <br class="md:hidden" />
+              transfer partners
             </p>
           </div>
         </template>
@@ -31,10 +32,11 @@
             <p
               class="relative z-20 text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[120%] relative z-20"
             >
-              Audited reserves backing PHPR
+              Audited reserves <br class="md:hidden" />
+              backing PHPR
             </p>
             <img
-              class="absolute bottom-0 w-[200px] md:w-[80%] left-[50%] -translate-x-[50%]"
+              class="absolute bottom-0 w-[150px] md:w-[80%] left-[50%] -translate-x-[50%]"
               src="/assets/images/logos.svg"
               alt=""
             />

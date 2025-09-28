@@ -7,7 +7,7 @@
       Human help, 24/7
     </button>
     <p
-      class="text text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-semibold leading-[120%] mt-10"
+      class="text text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-semibold leading-[120%] mt-3 md:mt-10"
     >
       Chat
       <img

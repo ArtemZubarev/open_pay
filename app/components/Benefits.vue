@@ -12,7 +12,7 @@
       <!-- Левая колонка -->
       <div class="flex flex-col gap-4 md:w-[calc(50%-8px)]">
         <FadeUp direction="left">
-          <div class="bg-[#252525] rounded-[50px] relative">
+          <div class="bg-[#252431] rounded-[50px] relative">
             <h3
               class="font-semibold text-[28px] sm:text-[36px] md:text-[50px] px-[25px] pt-[35px] lg:px-[60px] lg:pt-[60px]"
             >
@@ -28,7 +28,7 @@
           </div>
         </FadeUp>
         <FadeUp direction="left">
-          <div class="bg-[#252525] rounded-[50px] pb-[40px]">
+          <div class="bg-[#252431] rounded-[50px] pb-[40px]">
             <h3
               class="font-semibold text-[28px] sm:text-[36px] md:text-[50px] px-[25px] pt-[35px] lg:px-[60px] lg:pt-[60px]"
             >
@@ -44,7 +44,7 @@
             <img
               src="/assets/images/venom-logo.svg"
               alt=""
-              class="venom w-[200px] mx-auto mt-[20px] lg:pl-[60px] lg:mx-0 lg:w-[299px] lg:mt-[40px]"
+              class="venom w-[200px] ml-[25px] mt-[20px] lg:pl-[60px] lg:mx-0 lg:w-[299px] lg:mt-[40px]"
             />
           </div>
         </FadeUp>
@@ -61,9 +61,9 @@
             <img
               src="/assets/images/check.svg"
               alt=""
-              class="check w-[71px] h-[71px] absolute right-[38px] bottom-[34px] z-3"
+              class="check hidden md:block w-[71px] h-[71px] absolute right-[38px] bottom-[34px] z-3"
             />
-            <div class="inner-text bg-[#252525] rounded-[50px]">
+            <div class="inner-text bg-[#252431] rounded-[50px]">
               <h3
                 class="font-semibold text-[28px] sm:text-[36px] md:text-[50px] px-[25px] pt-[35px] lg:px-[60px] lg:pt-[60px]"
               >
@@ -79,8 +79,8 @@
           </div>
         </FadeUp>
         <FadeUp direction="right">
-          <div class="bg-[#252525] rounded-[50px] relative overflow-hidden">
-            <div class="relative z-2 pb-[150px]">
+          <div class="bg-[#252431] rounded-[50px] relative overflow-hidden">
+            <div class="relative z-2 pb-[100px] md:pb-[150px]">
               <h3
                 class="font-semibold text-[28px] sm:text-[36px] md:text-[50px] px-[25px] pt-[35px] lg:px-[60px] lg:pt-[60px]"
               >
@@ -96,7 +96,7 @@
               </p>
             </div>
             <img
-              class="absolute w-[312px] bottom-0 right-[54px] z-1"
+              class="absolute w-[190px] bottom-0 right-[20px] md:w-[312px] md:right-[54px] z-1"
               src="/assets/images/coins.svg"
               alt=""
             />
@@ -155,6 +155,10 @@
     0 4.417px 5.889px 0 rgba(255, 255, 255, 0.3) inset,
     0 -23.557px 94.23px 0 rgba(135, 64, 162, 0.4) inset;
   padding-bottom: 180px;
+
+  @media (max-width: 768px) {
+    padding-bottom: 50px;
+  }
 }
 .inner-img {
   position: relative;

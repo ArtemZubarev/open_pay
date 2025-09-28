@@ -10,7 +10,7 @@
     </h2>
     <div class="flex justify-center">
       <div
-        class="speech rounded-[28px] md:rounded-full text-[20px] text-center px-[10px] py-[20px] md:px-[40px] md:text-[34px]"
+        class="speech rounded-[28px] md:rounded-full text-[14px] text-center px-[10px] py-[6px] md:px-[40px] md:text-[34px]"
       >
         Remittances - Moving at Internet Speed
       </div>
@@ -23,7 +23,7 @@
         <img
           src="/assets/images/pic_1.svg"
           alt=""
-          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
+          class="max-w-[70px] md:max-w-[unset] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
           <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
@@ -39,7 +39,7 @@
         <img
           src="/assets/images/pic_2.svg"
           alt=""
-          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
+          class="max-w-[70px] md:max-w-[unset] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
           <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
@@ -55,7 +55,7 @@
         <img
           src="/assets/images/pic_3.svg"
           alt=""
-          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
+          class="max-w-[70px] md:max-w-[unset] md:h-[189px] md:w-[116px] object-cover flex-shrink-0"
         />
         <div class="ml-6">
           <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
@@ -71,7 +71,7 @@
         <img
           src="/assets/images/pic_4.svg"
           alt=""
-          class="w-[80px] h-[90px] md:h-[189px] md:w-[116px] object-cover flex-shrink-0 object-cover flex-shrink-0"
+          class="max-w-[70px] md:max-w-[unset] md:h-[189px] md:w-[116px] object-cover flex-shrink-0 object-cover flex-shrink-0"
         />
         <div class="ml-6">
           <h3 class="text-white font-normal text-[18px] lg:text-[36px]">
