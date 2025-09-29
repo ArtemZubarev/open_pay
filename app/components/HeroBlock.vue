@@ -3,13 +3,15 @@
     <BaseContainer>
       <!-- Заголовок -->
       <h1
-        class="text-center font-semibold leading-[1.5] text-title md:text-title-md lg:text-title-lg xl:text-title-xlq"
+        class="text-center font-semibold leading-[1.5] text-title md:text-title-md lg:text-title-lg xl:text-title-xlq relative z-20"
       >
         <div
           class="flex flex-col md:flex-row items-center md:items-unset justify-center md:gap-16 lg:gap-20 xl:gap-26 z-1"
         >
           <span>Send Money at</span>
-          <span class="onchain max-w-max md:max-w-unset">On-chain</span>
+          <span class="onchain max-w-max md:max-w-unset relative z-20"
+            >On-chain</span
+          >
         </div>
         <div
           class="flex flex-col md:flex-row items-center md:items-unset justify-center md:gap-10 lg:gap-14 xl:gap-20"
@@ -24,7 +26,7 @@
 
       <!-- Подзаголовок -->
       <p
-        class="text-center mt-3 md:mt-8 text-[14px] md:text-[28px] lg:text-[34px] font-normal text-foreground max-w-md md:max-w-xl lg:max-w-4xl mx-auto"
+        class="text-center mt-3 md:mt-8 text-[14px] md:text-[28px] lg:text-[34px] font-normal text-foreground max-w-md md:max-w-xl lg:max-w-4xl mx-auto relative z-20"
       >
         Powering US-based remittances <br class="md:hidden" />
         with on-chain speed and <br class="md:hidden" />
@@ -32,7 +34,9 @@
       </p>
 
       <!-- Кнопки -->
-      <div class="flex justify-center mt-4 md:mt-12 gap-2 md:gap-6">
+      <div
+        class="flex justify-center mt-4 md:mt-12 gap-2 md:gap-6 relative z-20"
+      >
         <!-- Градиентная кнопка -->
         <button
           class="btn-primary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 text-[#141414] rounded-full cursor-pointer"
@@ -47,6 +51,11 @@
           Corporate Queries
         </button>
       </div>
+      <img
+        src="/assets/images/blur-back.png"
+        class="absolute left-0 bottom-[50%] transform translate-y-[50%] scale-190 md:scale-100 md:translate-y-0 md:bottom-[-500px] w-full opacity-70"
+        alt=""
+      />
     </BaseContainer>
     <img
       class="w-full max-w-[342px] left-1/2 translate-x-[-50%] px-6 absolute z-1 bottom-[-180px] md:hidden"
@@ -97,6 +106,7 @@ h1 span {
   height: 32px;
   left: -23%;
   top: 4px;
+  z-index: 20;
 }
 .speed {
   position: relative;

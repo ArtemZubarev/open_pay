@@ -30,7 +30,7 @@
             class="h-full w-full flex flex-col justify-center md:justify-start gap-[8px] md:gap-6 px-10 md:px-20 md:py-20"
           >
             <img
-              class="max-w-[55px] md:hidden"
+              class="max-w-[60px] md:hidden"
               src="/assets/images/circle.svg"
               alt=""
             />
