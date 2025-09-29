@@ -4,12 +4,12 @@
     :max-width="'1292px'"
   >
     <h2
-      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-12 text-center"
+      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold text-center mb-0 md:mb-12 leading-[120%]"
     >
       Security & Compliance
     </h2>
 
-    <div class="flex flex-col gap-4 w-full mt-14">
+    <div class="flex flex-col gap-4 w-full mt-4 md:mt-14">
       <div
         v-for="(item, i) in items"
         :key="i"

@@ -4,7 +4,7 @@
     :max-width="'1292px'"
   >
     <h2
-      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-12 text-center"
+      class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-2 md:mb-12 text-center"
     >
       What We Do
     </h2>
@@ -15,7 +15,7 @@
         Remittances - Moving at Internet Speed
       </div>
     </div>
-    <div class="flex flex-wrap gap-6 mt-[50px]">
+    <div class="flex flex-wrap gap-6 mt-[25px] md:mt-[50px]">
       <!-- Блок 1 -->
       <div
         class="rounded-[22px] md:rounded-[50px] bg-[#252431] pr-6 pl-0 w-full md:w-[48%] flex items-center overflow-hidden"
@@ -81,7 +81,7 @@
       </div>
     </div>
     <p
-      class="mission text-center text-[18px] md:text-[32px] mt-[97px] max-w-[1160px] mx-auto"
+      class="mission text-center text-[18px] md:text-[32px] mt-[30px] md:mt-[97px] max-w-[1160px] mx-auto"
     >
       We help people and businesses move money from the US to global corridors.
       Fast, fair, and with verifiable on-chain receipts. Fund in USD
@@ -92,6 +92,7 @@
       OpenPay facilitates cross-border transactions at internet speed. All
       international remittances are conducted by licensed partners.
     </p>
+    <PhotosMobile class="md:hidden" />
     <Rocket />
   </BaseContainer>
   <Photos class="hidden md:block" />

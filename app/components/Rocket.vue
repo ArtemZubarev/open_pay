@@ -1,7 +1,7 @@
 <template>
   <div
     ref="container"
-    class="w-full flex justify-center relative mt-[-10px] md:mt-[45px]"
+    class="w-full flex justify-center relative mt-[-80px] sm:mt-[-40px] md:mt-[45px]"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"

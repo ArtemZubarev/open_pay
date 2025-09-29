@@ -18,11 +18,11 @@
       >
         <!-- <FadeUp direction="left"> -->
         <div
-          class="w-full bg-[#F5F5F5] rounded-[34px] flex flex-col p-8 flex-1 w-full max-w-[360px] relative aspect-[4/3] md:transform md:translate-x-2 md:rotate-3 z-10 overflow-hidden"
+          class="w-full bg-[#F5F5F5] rounded-[34px] flex flex-col p-8 flex-1 w-full max-w-[300px] relative aspect-[4/3] md:transform md:translate-x-2 md:rotate-3 z-10 overflow-hidden"
           style="box-shadow: 8px 8px 50px 0 rgba(0, 0, 0, 0.15)"
         >
           <h2
-            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20"
+            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20 leading-[120%]"
           >
             Sign up & verify
           </h2>
@@ -40,11 +40,11 @@
         <!-- </FadeUp> -->
         <!-- <FadeUp :delay="300"> -->
         <div
-          class="w-full bg-[#F5F5F5] rounded-[34px] flex flex-col p-8 flex-1 max-w-[360px] aspect-[4/3] relative md:transform md:translate-y-2 md:-rotate-2 z-20 overflow-hidden"
+          class="w-full bg-[#F5F5F5] rounded-[34px] flex flex-col p-8 flex-1 max-w-[300px] aspect-[4/3] relative md:transform md:translate-y-2 md:-rotate-2 z-20 overflow-hidden"
           style="box-shadow: 8px 8px 50px 0 rgba(0, 0, 0, 0.15)"
         >
           <h2
-            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20"
+            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20 leading-[120%]"
           >
             Load USD
           </h2>
@@ -62,7 +62,7 @@
         <!-- </FadeUp> -->
         <!-- <FadeUp :delay="300"> -->
         <div
-          class="w-full bg-[#F5F5F5] rounded-[34px] flex flex-col p-8 flex-1 max-w-[360px] aspect-[4/3] relative md:transform md:rotate-5 md:-translate-x-2 md:-translate-y-2 z-30 overflow-hidden"
+          class="w-full bg-[#F5F5F5] rounded-[34px] flex flex-col p-8 flex-1 max-w-[300px] aspect-[4/3] relative md:transform md:rotate-5 md:-translate-x-2 md:-translate-y-2 z-30 overflow-hidden"
           style="box-shadow: 8px 8px 50px 0 rgba(0, 0, 0, 0.15)"
         >
           <h2
@@ -89,11 +89,11 @@
       >
         <!-- <FadeUp :delay="300"> -->
         <div
-          class="bg-[#F5F5F5] w-full rounded-[34px] flex flex-col p-8 flex-1 max-w-[360px] aspect-[4/3] relative md:transform md:rotate-5 md:translate-x-6 z-40 overflow-hidden"
+          class="bg-[#F5F5F5] w-full rounded-[34px] flex flex-col p-8 flex-1 max-w-[300px] aspect-[4/3] relative md:transform md:rotate-5 md:translate-x-6 z-40 overflow-hidden"
           style="box-shadow: 8px 8px 50px 0 rgba(0, 0, 0, 0.15)"
         >
           <h2
-            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20"
+            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20 leading-[120%]"
           >
             Send & track
           </h2>
@@ -111,11 +111,11 @@
         <!-- </FadeUp> -->
         <!-- <FadeUp :delay="500"> -->
         <div
-          class="bg-[#F5F5F5] w-full rounded-[34px] flex flex-col p-8 flex-1 max-w-[360px] aspect-[4/3] relative md:transform md:-rotate-2 z-50 overflow-hidden"
+          class="bg-[#F5F5F5] w-full rounded-[34px] flex flex-col p-8 flex-1 max-w-[300px] aspect-[4/3] relative md:transform md:-rotate-2 z-50 overflow-hidden"
           style="box-shadow: 8px 8px 50px 0 rgba(0, 0, 0, 0.15)"
         >
           <h2
-            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20"
+            class="text-[28px] md:text-[40px] text-[#141414] font-bold text-left z-20 leading-[120%]"
           >
             Get status updates
           </h2>

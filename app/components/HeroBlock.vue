@@ -3,7 +3,7 @@
     <BaseContainer>
       <!-- Заголовок -->
       <h1
-        class="text-center font-semibold leading-[1.5] text-title md:text-title-md lg:text-title-lg xl:text-title-xl"
+        class="text-center font-semibold leading-[1.5] text-title md:text-title-md lg:text-title-lg xl:text-title-xlq"
       >
         <div
           class="flex flex-col md:flex-row items-center md:items-unset justify-center md:gap-16 lg:gap-20 xl:gap-26 z-1"
@@ -48,6 +48,11 @@
         </button>
       </div>
     </BaseContainer>
+    <img
+      class="w-full max-w-[342px] left-1/2 translate-x-[-50%] px-6 absolute z-1 bottom-[-180px] md:hidden"
+      src="/assets/images/hero-mobile.svg"
+      alt=""
+    />
   </section>
 </template>
 

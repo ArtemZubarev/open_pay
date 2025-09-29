@@ -27,8 +27,13 @@
         </template>
         <template #bottom>
           <div
-            class="h-full w-full flex flex-col gap-[8px] md:gap-6 gap-6 px-10 md:px-20 py-10 md:y-20"
+            class="h-full w-full flex flex-col justify-center md:justify-start gap-[8px] md:gap-6 px-10 md:px-20 md:py-20"
           >
+            <img
+              class="max-w-[55px] md:hidden"
+              src="/assets/images/circle.svg"
+              alt=""
+            />
             <p
               class="relative z-20 text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[120%] relative z-20"
             >
@@ -36,7 +41,7 @@
               backing PHPR
             </p>
             <img
-              class="absolute bottom-0 w-[150px] md:w-[80%] left-[50%] -translate-x-[50%]"
+              class="absolute hidden md:block bottom-0 w-[160px] md:w-[80%] left-[50%] -translate-x-[50%]"
               src="/assets/images/logos.svg"
               alt=""
             />
