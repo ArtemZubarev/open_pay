@@ -1,5 +1,5 @@
 <template>
-  <BaseContainer class="z-2 relative scale-100" :max-width="'1292px'">
+  <BaseContainer id="why" class="z-2 relative scale-100" :max-width="'1292px'">
     <h2
       class="text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold text-center mb-12"
     >

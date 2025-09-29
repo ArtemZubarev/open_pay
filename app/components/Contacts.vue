@@ -2,6 +2,7 @@
   <BaseContainer
     class="z-2 relative mt-[60px] md:mt-[150px]"
     :max-width="'1292px'"
+    id="support"
   >
     <button class="btn-secondary rounded-full px-6 py-3 cursor-pointer">
       Human help, 24/7

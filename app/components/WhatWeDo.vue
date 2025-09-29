@@ -2,6 +2,7 @@
   <BaseContainer
     class="z-2 relative mt-[80px] md:mt-[220px]"
     :max-width="'1292px'"
+    id="about"
   >
     <h2
       class="title text-title md:text-title-md lg:text-title-lg xl:text-title-xl font-bold mb-2 md:mb-12 text-center"
