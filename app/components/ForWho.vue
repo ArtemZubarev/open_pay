@@ -72,7 +72,6 @@
 <style scoped>
 .who {
   position: relative;
-  border-radius: 55px;
 
   border: 2px solid transparent;
   background-clip: padding-box, border-box;
