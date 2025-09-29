@@ -39,6 +39,7 @@
       >
         <!-- Градиентная кнопка -->
         <button
+          @click="handleClick"
           class="btn-primary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 text-[#141414] rounded-full cursor-pointer"
         >
           Get Early Access
@@ -46,6 +47,7 @@
 
         <!-- Вторая кнопка -->
         <button
+          @click="handleClick"
           class="btn-secondary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 rounded-full cursor-pointer"
         >
           Corporate Queries
@@ -67,6 +69,21 @@
 
 <script setup>
 import BaseContainer from "~/components/BaseContainer.vue";
+
+const toast = useToast();
+
+const handleClick = () => {
+  toast.warning({
+    title: "Coming soon!",
+    // message: "Be careful with this action.",
+    position: "topCenter",
+    backgroundColor: "#fff",
+    titleColor: "#16151D",
+    iconColor: "#A36EF7",
+    iconUrl: "/danger.svg",
+    timeout: 3000,
+  });
+};
 </script>
 
 <style scoped>

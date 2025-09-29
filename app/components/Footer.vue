@@ -25,11 +25,13 @@
             </p>
             <div class="flex mt-2 gap-2 md:gap-6 md:flex-wrap">
               <button
+                @click="handleClick"
                 class="btn-primary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 text-[#141414] rounded-full cursor-pointer"
               >
                 Get Started
               </button>
               <button
+                @click="handleClick"
                 class="flex gap-1 btn-secondary text-[13px] md:text-[16px] px-3 py-2 md:px-6 md:py-3 rounded-full cursor-pointer"
               >
                 <img
@@ -56,11 +58,14 @@
             <ul
               class="flex flex-col gap-2 md:gap-4 text-white/70 text-[14px] md:text-[16px]"
             >
-              <li><a class="hover:opacity-60" href="#">Home</a></li>
-              <li><a class="hover:opacity-60" href="#">Why OpenPay</a></li>
-              <li><a class="hover:opacity-60" href="#">About OpenPay</a></li>
+              <li><a class="hover:opacity-60" href="/">Home</a></li>
+              <li><a class="hover:opacity-60" href="#why">Why OpenPay</a></li>
+              <li>
+                <a class="hover:opacity-60" href="#about">About OpenPay</a>
+              </li>
               <li>
                 <a
+                  @click.prevent="handleClick"
                   class="text-white hover:opacity-60 flex items-center gap-2"
                   href="#"
                 >
@@ -86,9 +91,10 @@
           <div class="flex flex-col gap-4">
             <h3 class="text-white text-[20px] font-semibold">Support</h3>
             <button
+              @click="handleClick"
               class="btn-primary text-[#141414] rounded-full px-6 py-3 cursor-pointer max-w-[205px]"
             >
-              Get Early Access
+              Chat With Us
             </button>
           </div>
         </div>
@@ -114,6 +120,23 @@
     alt=""
   />
 </template>
+
+<script setup>
+const toast = useToast();
+
+const handleClick = () => {
+  toast.warning({
+    title: "Coming soon!",
+    // message: "Be careful with this action.",
+    position: "topCenter",
+    backgroundColor: "#fff",
+    titleColor: "#16151D",
+    iconColor: "#A36EF7",
+    iconUrl: "/danger.svg",
+    timeout: 3000,
+  });
+};
+</script>
 
 <style scoped>
 .btn-primary {

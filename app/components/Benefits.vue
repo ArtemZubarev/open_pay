@@ -105,10 +105,11 @@
 
         <div class="flex justify-around mt-[10px]">
           <a
-            href="#"
+            href="https://venom.foundation/"
+            target="_blank"
             class="text-foreground hover:opacity-60 text-[18px] lg:text-[30px] transition-colors duration-200 font-normal flex items-center gap-2"
           >
-            Learn More
+            Venom link
             <img
               src="/assets/images/arrow-menu.svg"
               alt="Arrow"
@@ -116,10 +117,11 @@
             />
           </a>
           <a
+            @click.prevent="handleClick"
             href="#"
             class="text-foreground hover:opacity-60 text-[18px] lg:text-[30px] transition-colors duration-200 font-normal flex items-center gap-2"
           >
-            Get Started
+            PHPR token link
             <img
               src="/assets/images/arrow-menu.svg"
               alt="Arrow"
@@ -138,7 +140,20 @@
 </template>
 
 <script setup>
-// Логики нет, чисто разметка
+const toast = useToast();
+
+const handleClick = () => {
+  toast.warning({
+    title: "Coming soon!",
+    // message: "Be careful with this action.",
+    position: "topCenter",
+    backgroundColor: "#fff",
+    titleColor: "#16151D",
+    iconColor: "#A36EF7",
+    iconUrl: "/danger.svg",
+    timeout: 3000,
+  });
+};
 </script>
 
 <style scoped>

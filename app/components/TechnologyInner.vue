@@ -24,6 +24,7 @@
           </div>
           <a
             href="#"
+            @click.prevent="handleClick"
             class="flex relative items-center text-[#A36EF7] text-[18px] md:text-[22px] lg:text-[28px] font-medium hover:underline z-2"
           >
             Visit PHPR site for details
@@ -73,7 +74,8 @@
             </p>
           </div>
           <a
-            href="#"
+            href="https://venom.foundation/"
+            target="_blank"
             class="flex relative items-center text-[#A36EF7] text-[18px] md:text-[22px] lg:text-[28px] font-medium hover:underline z-2"
           >
             Learn more on Venom
@@ -104,6 +106,23 @@
     </div>
   </BaseContainer>
 </template>
+
+<script setup>
+const toast = useToast();
+
+const handleClick = () => {
+  toast.warning({
+    title: "Coming soon!",
+    // message: "Be careful with this action.",
+    position: "topCenter",
+    backgroundColor: "#fff",
+    titleColor: "#16151D",
+    iconColor: "#A36EF7",
+    iconUrl: "/danger.svg",
+    timeout: 3000,
+  });
+};
+</script>
 
 <style scoped>
 .box {

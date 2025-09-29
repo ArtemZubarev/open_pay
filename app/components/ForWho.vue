@@ -51,13 +51,17 @@
       >
         <!-- Градиентная кнопка -->
         <button
+          @click="handleClick"
           class="btn-primary text-[#141414] rounded-full px-6 py-3 cursor-pointer"
         >
           Get Early Access
         </button>
 
         <!-- Вторая кнопка -->
-        <button class="btn-secondary rounded-full px-6 py-3 cursor-pointer">
+        <button
+          @click="handleClick"
+          class="btn-secondary rounded-full px-6 py-3 cursor-pointer"
+        >
           Corporate Queries
         </button>
       </div>
@@ -69,6 +73,22 @@
   </BaseContainer>
 </template>
 
+<script setup>
+const toast = useToast();
+
+const handleClick = () => {
+  toast.warning({
+    title: "Coming soon!",
+    // message: "Be careful with this action.",
+    position: "topCenter",
+    backgroundColor: "#fff",
+    titleColor: "#16151D",
+    iconColor: "#A36EF7",
+    iconUrl: "/danger.svg",
+    timeout: 3000,
+  });
+};
+</script>
 <style scoped>
 .who {
   position: relative;

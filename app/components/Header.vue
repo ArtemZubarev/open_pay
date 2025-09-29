@@ -16,6 +16,7 @@
           :href="item.href"
           class="text-[#5D587B] hover:text-white transition-colors duration-200 font-normal flex items-center gap-2"
           :class="{ 'text-white': index === menuItems.length - 1 }"
+          @click.prevent="item.label === 'Open an Account' && handleClick()"
         >
           {{ item.label }}
           <img
@@ -30,6 +31,7 @@
       <!-- Кнопка (desktop) -->
       <div class="hidden lg:block">
         <button
+          @click="handleClick"
           class="bg-white text-[#141414] px-6 py-2 rounded-full hover:opacity-90 transition cursor-pointer font-normal"
         >
           Sign Up
@@ -80,6 +82,7 @@
 
           <!-- Кнопка -->
           <button
+            @click="handleClick"
             class="mt-auto bg-white text-[#141414] px-6 py-2 rounded-full hover:opacity-90 transition cursor-pointer font-normal"
           >
             Sign Up
@@ -92,6 +95,21 @@
 
 <script setup>
 import { ref } from "vue";
+
+const toast = useToast();
+
+const handleClick = () => {
+  toast.warning({
+    title: "Coming soon!",
+    // message: "Be careful with this action.",
+    position: "topCenter",
+    backgroundColor: "#fff",
+    titleColor: "#16151D",
+    iconColor: "#A36EF7",
+    iconUrl: "/danger.svg",
+    timeout: 3000,
+  });
+};
 
 const isMenuOpen = ref(false);
 
