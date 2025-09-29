@@ -53,7 +53,7 @@
       </div>
       <img
         src="/assets/images/blur-back.png"
-        class="absolute left-0 bottom-[50%] transform translate-y-[50%] scale-190 md:scale-100 md:translate-y-0 md:bottom-[-500px] w-full opacity-70"
+        class="md:hidden absolute left-0 bottom-[50%] transform translate-y-[50%] scale-190 md:scale-100 md:translate-y-0 md:bottom-[-500px] w-full opacity-70"
         alt=""
       />
     </BaseContainer>

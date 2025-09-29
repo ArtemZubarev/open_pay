@@ -10,10 +10,10 @@
 
       <!-- Меню (desktop) -->
       <nav class="hidden lg:flex lg:gap-[46px] xl:gap-[56px] items-center">
-        <NuxtLink
+        <a
           v-for="(item, index) in menuItems"
           :key="index"
-          :to="item.href"
+          :href="item.href"
           class="text-[#5D587B] hover:text-white transition-colors duration-200 font-normal flex items-center gap-2"
           :class="{ 'text-white': index === menuItems.length - 1 }"
         >
@@ -24,7 +24,7 @@
             alt="Arrow"
             class="w-4 h-4"
           />
-        </NuxtLink>
+        </a>
       </nav>
 
       <!-- Кнопка (desktop) -->
