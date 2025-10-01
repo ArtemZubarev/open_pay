@@ -18,8 +18,10 @@ export default defineNuxtConfig({
       },
     ],
   },
-  // fonts: {
-  //   // Poppins: true
-  // },
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+    },
+  },
   css: ["~/assets/css/main.css"],
 });

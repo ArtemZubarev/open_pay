@@ -202,7 +202,7 @@ h1 span {
     width: 72px;
     height: 72px;
     left: -84px;
-    top: 23px;
+    top: 13px;
   }
 
   .speed-text {

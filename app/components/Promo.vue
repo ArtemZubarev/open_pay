@@ -89,7 +89,7 @@
       class="absolute left-0 top-0 -translate-x-[696px] pointer-events-none z-2 w-full max-w-[659px]"
     >
       <PromoBlock>
-        <template #default>Центральный</template>
+        <template #default></template>
       </PromoBlock>
     </div>
 
@@ -98,8 +98,8 @@
       class="absolute right-0 top-0 -translate-x-[-696px] pointer-events-none z-2 w-full max-w-[659px]"
     >
       <PromoBlock :single="true" class="shrink-1">
-        <template #top>Верх</template>
-        <template #bottom>Низ</template>
+        <template #top></template>
+        <template #bottom></template>
       </PromoBlock>
     </div>
   </BaseContainer>

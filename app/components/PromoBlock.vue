@@ -31,14 +31,14 @@ const containerClass = computed(() => {
       <div
         class="flex-1 bg-background rounded-[24px] lg:rounded-[60px] flex items-center justify-center text-white text-lg font-semibold relative overflow-hidden"
       >
-        <slot name="top">Верхний блок</slot>
+        <slot name="top"></slot>
       </div>
 
       <!-- Нижний блок -->
       <div
         class="flex-1 bg-background rounded-[24px] lg:rounded-[60px] flex items-center justify-center text-white text-lg font-semibold relative overflow-hidden"
       >
-        <slot name="bottom">Нижний блок</slot>
+        <slot name="bottom"></slot>
       </div>
     </template>
 
@@ -46,14 +46,14 @@ const containerClass = computed(() => {
       <div
         class="flex-1 bg-background rounded-[24px] lg:rounded-[60px] flex items-center justify-center text-white text-lg font-semibold relative overflow-hidden"
       >
-        <slot name="top">Верхний блок</slot>
+        <slot name="top"></slot>
       </div>
 
       <!-- Нижний блок не отображается -->
       <div
         class="flex-1 bg-background rounded-[24px] lg:rounded-[60px] flex items-center justify-center text-white text-lg font-semibold invisible"
       >
-        <slot name="bottom">Нижний блок</slot>
+        <slot name="bottom"></slot>
       </div>
     </template>
 
@@ -62,7 +62,7 @@ const containerClass = computed(() => {
       <div
         class="w-full h-full flex items-center justify-center text-white text-xl font-bold"
       >
-        <slot>Фон с картинкой</slot>
+        <slot></slot>
       </div>
     </template>
 
